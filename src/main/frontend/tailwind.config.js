@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     'node_modules/preline/dist/*.js',
     "../resources/templates/**/*.{html,js}",
